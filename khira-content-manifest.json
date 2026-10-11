@@ -1,0 +1,117 @@
+{
+  "app": "خيرة",
+  "package": "com.khira.app",
+  "source_apk": "خيرة.apk",
+  "assets": [
+    {
+      "path": "data/athkar.json",
+      "bytes": 66412,
+      "sha256": "5d71148eaab79dfe7f1120bbfbe8a1147dcbf93465eab69a3f9e8401484f51c6"
+    },
+    {
+      "path": "data/duas.json",
+      "bytes": 43876,
+      "sha256": "334d90e4da3b9c1f50d3f9751823a2e6887af8b2c4da6f510d0d382c467f4b2d"
+    },
+    {
+      "path": "data/surahs.json",
+      "bytes": 8760,
+      "sha256": "24e030d6276c4b24a9870160d690dd939e169ea8af9256deb710cc1448418817"
+    },
+    {
+      "path": "data/widget-athkar.json",
+      "bytes": 7100,
+      "sha256": "e4772fc9e815c7043a1f7d9b2ba2cf7ffcaa7362f02b157c67b580725c3f698d"
+    },
+    {
+      "path": "dexopt/baseline.prof",
+      "bytes": 12579,
+      "sha256": "9bda53646a8068f25748365c982a443441d445d08b3a40f68bbcf2f7e8e5536f"
+    },
+    {
+      "path": "dexopt/baseline.profm",
+      "bytes": 1491,
+      "sha256": "7058c056e36f53904e55c614acafb0d05d7962b4060f804569285eb1bcf1c2d1"
+    },
+    {
+      "path": "mushaf/LICENSE.txt",
+      "bytes": 704,
+      "sha256": "1c033c28d6d62e06dc6a2783bb3c7ba19785afbef46ddc90c027624cac41cbf4"
+    },
+    {
+      "path": "mushaf/ayahs.bin",
+      "bytes": 635386,
+      "sha256": "4150a3bfb1c3085bb99680302b5dbd220b812e62d99cfc060a792f18b44e62de"
+    },
+    {
+      "path": "mushaf/index.json",
+      "bytes": 314099,
+      "sha256": "b67f5b3e48e7f8fff16efc1522e2e9be50a8a44e994bd901859c7b61bc7bbfa8"
+    },
+    {
+      "path": "mushaf/pages.bin",
+      "bytes": 48312196,
+      "sha256": "0d49a25c23bb25dca289f5f05f58394725a08b8984f14359a270afde96d3be05"
+    },
+    {
+      "path": "mushaf/tafsir.bin",
+      "bytes": 568788,
+      "sha256": "33c1962fc9e02e80df7c71f58347831aabeb3a392c7f10a7e11b88114b771513"
+    },
+    {
+      "path": "tafsir/catalog.json",
+      "bytes": 3826,
+      "sha256": "f1b8436f593e5c6ed75bfaba392458a5fff02693b79ec633c85bf9f068c93c24"
+    },
+    {
+      "path": "tafsir/ibn-kathir.bin",
+      "bytes": 8814153,
+      "sha256": "0117741611385fea2123be066907d5065ddc318e6cbdc49f5a3316848f827c26"
+    },
+    {
+      "path": "tafsir/ibn-kathir.sqlite",
+      "bytes": 7204864,
+      "sha256": "fd645b6b6033fc0715086d74bb611d896326b47df4739c6badd71687368175af"
+    },
+    {
+      "path": "tafsir/muyassar.bin",
+      "bytes": 1220056,
+      "sha256": "5f4cbac51e5ba773970622f007d30427871f442ce6d490f914c4ee506859c68b"
+    },
+    {
+      "path": "tafsir/muyassar.sqlite",
+      "bytes": 1761280,
+      "sha256": "da2a692641576a812e0fcbd391b3f268b873b38979518670fedd0022d22525a7"
+    },
+    {
+      "path": "tafsir/saadi.bin",
+      "bytes": 2698961,
+      "sha256": "339d42f918b5273c751b67b18433589e4785aa81324d7927af101ac98bad684e"
+    },
+    {
+      "path": "tafsir/saadi.sqlite",
+      "bytes": 3010560,
+      "sha256": "3e69a9603d80f70baa60e2bedaeaea2dc0b03564bc0b8bbfa9554efc75d4364b"
+    },
+    {
+      "path": "tafsir/tabari.bin",
+      "bytes": 19803682,
+      "sha256": "fa7f2e408d338c403265dd6186a8609fd02bf538e861b04c8065b8873b750686"
+    },
+    {
+      "path": "tafsir/tabari.sqlite",
+      "bytes": 19546112,
+      "sha256": "6bd9f2b0c3e6d7cbde52e02d9ad462fb54354ad3ce724e15dcf8f927f24eceac"
+    },
+    {
+      "path": "timezone/timezone16.bin",
+      "bytes": 1124907,
+      "sha256": "8dd605e30e9dc923efae0225f4d208fc1654161daa7a50dbde588c4151a168a1"
+    },
+    {
+      "path": "timezone/timezone21.bin",
+      "bytes": 4697896,
+      "sha256": "678ab5e795975ff3f6226d3103833d984d83861b45ac7a472da9bf97de5d5e79"
+    }
+  ]
+}

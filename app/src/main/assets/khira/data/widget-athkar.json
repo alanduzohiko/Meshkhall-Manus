@@ -1,0 +1,119 @@
+{
+  "items": [
+    {
+      "id": "glory-and-praise",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ.",
+      "englishText": "Glory and praise be to Allah."
+    },
+    {
+      "id": "seek-forgiveness",
+      "text": "أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ.",
+      "englishText": "I seek Allah’s forgiveness and turn to Him in repentance."
+    },
+    {
+      "id": "glory-great-and-praise",
+      "text": "سُبْحَانَ اللَّهِ الْعَظِيمِ وَبِحَمْدِهِ.",
+      "englishText": "Glory and praise be to Allah, the Magnificent."
+    },
+    {
+      "id": "no-power-except-allah",
+      "text": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.",
+      "englishText": "There is no power and no strength except through Allah."
+    },
+    {
+      "id": "praise-and-oneness",
+      "text": "الْحَمْدُ لِلَّهِ. لَا إِلَهَ إِلَّا اللَّهُ.",
+      "englishText": "All praise is for Allah. There is no god but Allah."
+    },
+    {
+      "id": "refuge-from-satan",
+      "text": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ.",
+      "englishText": "I seek refuge in Allah from Satan, the accursed."
+    },
+    {
+      "id": "allah-is-my-lord",
+      "text": "اللَّهُ اللَّهُ رَبِّي، لَا أُشْرِكُ بِهِ شَيْئًا.",
+      "englishText": "Allah, Allah is my Lord. I associate nothing with Him."
+    },
+    {
+      "id": "blessings-upon-the-prophet",
+      "text": "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ.",
+      "englishText": "O Allah, bless our Prophet Muhammad and grant him peace."
+    },
+    {
+      "id": "glory-and-greatness",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ.",
+      "englishText": "Glory and praise be to Allah. Glory be to Allah, the Magnificent."
+    },
+    {
+      "id": "perfect-words",
+      "text": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ.",
+      "englishText": "I seek refuge in Allah’s perfect words from the evil of what He has created."
+    },
+    {
+      "id": "supplication-of-yunus",
+      "text": "لَا إِلَهَ إِلَّا أَنْتَ، سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ.",
+      "englishText": "There is no god but You. Glory be to You. I have been among the wrongdoers."
+    },
+    {
+      "id": "repentance",
+      "text": "رَبِّ اغْفِرْ لِي، وَتُبْ عَلَيَّ، إِنَّكَ أَنْتَ التَّوَّابُ الرَّحِيمُ.",
+      "englishText": "My Lord, forgive me and accept my repentance. You are the Accepter of repentance, the Merciful."
+    },
+    {
+      "id": "pleased-with-allah",
+      "text": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ نَبِيًّا.",
+      "englishText": "I am pleased with Allah as my Lord, Islam as my religion, and Muhammad as my Prophet."
+    },
+    {
+      "id": "forgiveness-guidance-wellbeing-provision",
+      "text": "اللَّهُمَّ اغْفِرْ لِي، وَارْحَمْنِي، وَاهْدِنِي، وَعَافِنِي، وَارْزُقْنِي.",
+      "englishText": "O Allah, forgive me, have mercy on me, guide me, grant me well-being, and provide for me."
+    },
+    {
+      "id": "lawful-provision",
+      "text": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ.",
+      "englishText": "O Allah, suffice me with what You have made lawful instead of what You have forbidden, and enrich me by Your grace so I need no one besides You."
+    },
+    {
+      "id": "four-remembrances",
+      "text": "سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ.",
+      "englishText": "Glory be to Allah. All praise is for Allah. There is no god but Allah. Allah is the Greatest."
+    },
+    {
+      "id": "beneficial-knowledge",
+      "text": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا.",
+      "englishText": "O Allah, I ask You for beneficial knowledge, wholesome provision, and deeds that You accept."
+    },
+    {
+      "id": "peace",
+      "text": "اللَّهُمَّ أَنْتَ السَّلَامُ، وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ.",
+      "englishText": "O Allah, You are Peace and from You comes peace. Blessed are You, Possessor of majesty and honor."
+    },
+    {
+      "id": "allah-is-sufficient",
+      "text": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.",
+      "englishText": "Allah is sufficient for me. There is no god but Him. In Him I trust, and He is Lord of the mighty Throne."
+    },
+    {
+      "id": "ease",
+      "text": "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلًا، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلًا.",
+      "englishText": "O Allah, nothing is easy except what You make easy. You make difficulty easy when You will."
+    },
+    {
+      "id": "great-forgiveness",
+      "text": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ، وَأَتُوبُ إِلَيْهِ.",
+      "englishText": "I seek forgiveness from Allah, the Magnificent, besides whom there is no god, the Ever-Living, the Sustainer, and I turn to Him in repentance."
+    },
+    {
+      "id": "praise-by-creation",
+      "text": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ.",
+      "englishText": "Glory and praise be to Allah, as many as His creation, to His satisfaction, equal to the weight of His Throne, and the ink of His words."
+    },
+    {
+      "id": "gathering-expiation",
+      "text": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا أَنْتَ، أَسْتَغْفِرُكَ وَأَتُوبُ إِلَيْكَ.",
+      "englishText": "Glory and praise be to You, O Allah. I bear witness that there is no god but You. I seek Your forgiveness and turn to You in repentance."
+    }
+  ]
+}

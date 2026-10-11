@@ -1,0 +1,362 @@
+{
+  "ok": true,
+  "data": {
+    "evidence_id": "ev_f6058259e1edbd63dcce31725025be435e45ff70ba433223fb8de19c1635935d",
+    "subject": {
+      "name": "تەفسیرینوور.apk",
+      "digest": {
+        "sha256": "7b0ce94ee36055a99191e25e787a31e49f364029116c0c5e79e24c94b7bcdcee"
+      },
+      "format": "apk",
+      "architecture": null,
+      "local_path": "/home/ubuntu/upload/تەفسیرینوور.apk"
+    },
+    "provider": {
+      "id": "jadx",
+      "name": "JADX headless",
+      "version": "0.7.1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/home/ubuntu/upload/تەفسیرینوور.apk",
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity"
+    },
+    "raw_result": {
+      "server": {
+        "name": "rea-jadx-bridge",
+        "version": "1"
+      },
+      "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+      "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "loaded": {
+        "state": "LOADED",
+        "apk_path": "/tmp/rea-android-1bg1RC/target.apk",
+        "class_count": 7746,
+        "resource_count": 956,
+        "threads": 1,
+        "resources": "full"
+      },
+      "calls": [
+        {
+          "operation": "rea_jvm_status",
+          "input": {},
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"java_version\":\"21.0.12.1\",\"available_processors\":6,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3147825152}"
+              }
+            ],
+            "isError": false
+          }
+        },
+        {
+          "operation": "load_apk",
+          "input": {
+            "path": "/tmp/rea-android-1bg1RC/target.apk",
+            "threads": 1,
+            "resources": "full"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-1bg1RC/target.apk\",\"class_count\":7746,\"raw_class_count\":7746,\"resource_count\":956,\"load_duration_ms\":4207,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+              }
+            ]
+          }
+        },
+        {
+          "operation": "get_class_summary",
+          "input": {
+            "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"inner_class_count\":22,\"inner_classes\":[\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.a\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.b\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.c\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.d\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.e\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.f\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.g\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.h\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.i\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.j\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.k\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.l\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.m\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.n\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.o\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.p\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.q\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.r\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.s\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.t\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.u\",\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.v\"],\"name\":\"MainActivity\",\"full_name\":\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity\",\"field_count\":25,\"fields\":[{\"def_pos\":0,\"name\":\"G\",\"type\":\"androidx.drawerlayout.widget.DrawerLayout\"},{\"def_pos\":0,\"name\":\"H\",\"type\":\"m5.l$d\"},{\"def_pos\":0,\"name\":\"I\",\"type\":\"android.widget.TextView\"},{\"def_pos\":0,\"name\":\"J\",\"type\":\"java.util.ArrayList\\u003cl4.e\\u003e\"},{\"def_pos\":0,\"name\":\"K\",\"type\":\"java.util.ArrayList\\u003cm4.k\\u003e\"},{\"def_pos\":0,\"name\":\"L\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"M\",\"type\":\"l4.d\"},{\"def_pos\":0,\"name\":\"N\",\"type\":\"h4.b\"},{\"def_pos\":0,\"name\":\"O\",\"type\":\"com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView\"},{\"def_pos\":0,\"name\":\"P\",\"type\":\"androidx.recyclerview.widget.RecyclerView\"},{\"def_pos\":0,\"name\":\"Q\",\"type\":\"android.widget.LinearLayout\"},{\"def_pos\":0,\"name\":\"R\",\"type\":\"android.widget.LinearLayout\"},{\"def_pos\":0,\"name\":\"S\",\"type\":\"android.widget.LinearLayout\"},{\"def_pos\":0,\"name\":\"T\",\"type\":\"androidx.appcompat.widget.Toolbar\"},{\"def_pos\":0,\"name\":\"U\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"V\",\"type\":\"com.google.android.material.navigation.NavigationView\"},{\"def_pos\":0,\"name\":\"W\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"X\",\"type\":\"java.util.ArrayList\\u003cjava.lang.Integer\\u003e\"},{\"def_pos\":0,\"name\":\"Y\",\"type\":\"com.dev.hazhanjalal.tafseerinoor.ui.MainActivity\"},{\"def_pos\":0,\"name\":\"Z\",\"type\":\"android.widget.TextView\"},{\"def_pos\":0,\"name\":\"f3725a0\",\"type\":\"java.util.LinkedHashMap\\u003cjava.lang.String, m4.j\\u003e\"},{\"def_pos\":0,\"name\":\"f3726b0\",\"type\":\"android.widget.HorizontalScrollView\"},{\"def_pos\":0,\"name\":\"f3727c0\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"f3728d0\",\"type\":\"android.widget.TextView\"},{\"def_pos\":0,\"name\":\"f3729e0\",\"type\":\"android.widget.LinearLayout\"}],\"methods\":[{\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\"},{\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\"},{\"is_constructor\":false,\"name\":\"B\",\"def_pos\":0,\"signature\":\"B(): void\"},{\"is_constructor\":false,\"name\":\"C\",\"def_pos\":0,\"signature\":\"C(java.lang.String): void\"},{\"is_constructor\":false,\"name\":\"D\",\"def_pos\":0,\"signature\":\"D(): void\"},{\"is_constructor\":false,\"name\":\"E\",\"def_pos\":0,\"signature\":\"E(): void\"},{\"is_constructor\":false,\"name\":\"F\",\"def_pos\":0,\"signature\":\"F(): void\"},{\"is_constructor\":false,\"name\":\"G\",\"def_pos\":0,\"signature\":\"G(): void\"},{\"is_constructor\":false,\"name\":\"H\",\"def_pos\":0,\"signature\":\"H(): void\"},{\"is_constructor\":false,\"name\":\"I\",\"def_pos\":0,\"signature\":\"I(): void\"},{\"is_constructor\":false,\"name\":\"goToTodaysAyah\",\"def_pos\":0,\"signature\":\"goToTodaysAyah(android.view.View): void\"},{\"is_constructor\":false,\"name\":\"onCreate\",\"def_pos\":0,\"signature\":\"onCreate(android.os.Bundle): void\"},{\"is_constructor\":false,\"name\":\"onCreateOptionsMenu\",\"def_pos\":0,\"signature\":\"onCreateOptionsMenu(android.view.Menu): boolean\"},{\"is_constructor\":false,\"name\":\"onDestroy\",\"def_pos\":0,\"signature\":\"onDestroy(): void\"},{\"is_constructor\":false,\"name\":\"onOptionsItemSelected\",\"def_pos\":0,\"signature\":\"onOptionsItemSelected(android.view.MenuItem): boolean\"},{\"is_constructor\":false,\"name\":\"onPause\",\"def_pos\":0,\"signature\":\"onPause(): void\"},{\"is_constructor\":false,\"name\":\"onResume\",\"def_pos\":0,\"signature\":\"onResume(): void\"}],\"method_count\":17}"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ]
+    },
+    "normalized_result": {
+      "engine": {
+        "name": "jadx-headless-mcp",
+        "version": "0.7.1",
+        "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+        "worker_count": 1,
+        "heap_limit_mib": 3002
+      },
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "reported_signature": "<clinit>(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "<init>",
+          "reported_signature": "<init>(): void",
+          "overload_index": 0,
+          "is_constructor": true,
+          "dex_descriptor": null
+        },
+        {
+          "name": "B",
+          "reported_signature": "B(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "C",
+          "reported_signature": "C(java.lang.String): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "D",
+          "reported_signature": "D(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "E",
+          "reported_signature": "E(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "F",
+          "reported_signature": "F(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "G",
+          "reported_signature": "G(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "H",
+          "reported_signature": "H(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "I",
+          "reported_signature": "I(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "goToTodaysAyah",
+          "reported_signature": "goToTodaysAyah(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onCreate",
+          "reported_signature": "onCreate(android.os.Bundle): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onCreateOptionsMenu",
+          "reported_signature": "onCreateOptionsMenu(android.view.Menu): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onDestroy",
+          "reported_signature": "onDestroy(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onOptionsItemSelected",
+          "reported_signature": "onOptionsItemSelected(android.view.MenuItem): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onPause",
+          "reported_signature": "onPause(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onResume",
+          "reported_signature": "onResume(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        }
+      ],
+      "fields": [
+        {
+          "name": "G",
+          "reported_type": "androidx.drawerlayout.widget.DrawerLayout"
+        },
+        {
+          "name": "H",
+          "reported_type": "m5.l$d"
+        },
+        {
+          "name": "I",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "J",
+          "reported_type": "java.util.ArrayList<l4.e>"
+        },
+        {
+          "name": "K",
+          "reported_type": "java.util.ArrayList<m4.k>"
+        },
+        {
+          "name": "L",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "M",
+          "reported_type": "l4.d"
+        },
+        {
+          "name": "N",
+          "reported_type": "h4.b"
+        },
+        {
+          "name": "O",
+          "reported_type": "com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView"
+        },
+        {
+          "name": "P",
+          "reported_type": "androidx.recyclerview.widget.RecyclerView"
+        },
+        {
+          "name": "Q",
+          "reported_type": "android.widget.LinearLayout"
+        },
+        {
+          "name": "R",
+          "reported_type": "android.widget.LinearLayout"
+        },
+        {
+          "name": "S",
+          "reported_type": "android.widget.LinearLayout"
+        },
+        {
+          "name": "T",
+          "reported_type": "androidx.appcompat.widget.Toolbar"
+        },
+        {
+          "name": "U",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "V",
+          "reported_type": "com.google.android.material.navigation.NavigationView"
+        },
+        {
+          "name": "W",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "X",
+          "reported_type": "java.util.ArrayList<java.lang.Integer>"
+        },
+        {
+          "name": "Y",
+          "reported_type": "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity"
+        },
+        {
+          "name": "Z",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "f3725a0",
+          "reported_type": "java.util.LinkedHashMap<java.lang.String, m4.j>"
+        },
+        {
+          "name": "f3726b0",
+          "reported_type": "android.widget.HorizontalScrollView"
+        },
+        {
+          "name": "f3727c0",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "f3728d0",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "f3729e0",
+          "reported_type": "android.widget.LinearLayout"
+        }
+      ],
+      "inner_classes": [
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.a",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.b",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.c",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.d",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.e",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.f",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.g",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.h",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.i",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.j",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.k",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.l",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.m",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.n",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.o",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.p",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.q",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.r",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.s",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.t",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.u",
+        "com.dev.hazhanjalal.tafseerinoor.ui.MainActivity.v"
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+      "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+      "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+      "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  "meta": {
+    "command": "inspect-android-class",
+    "duration": "6540ms"
+  }
+}

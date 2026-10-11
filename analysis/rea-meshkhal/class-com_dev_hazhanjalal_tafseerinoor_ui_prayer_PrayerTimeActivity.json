@@ -1,0 +1,410 @@
+{
+  "ok": true,
+  "data": {
+    "evidence_id": "ev_fcbe5bac0a828d7302e04b0eaeea40d4227910c02644b6728b7f178fe44569f8",
+    "subject": {
+      "name": "تەفسیرینوور.apk",
+      "digest": {
+        "sha256": "7b0ce94ee36055a99191e25e787a31e49f364029116c0c5e79e24c94b7bcdcee"
+      },
+      "format": "apk",
+      "architecture": null,
+      "local_path": "/home/ubuntu/upload/تەفسیرینوور.apk"
+    },
+    "provider": {
+      "id": "jadx",
+      "name": "JADX headless",
+      "version": "0.7.1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/home/ubuntu/upload/تەفسیرینوور.apk",
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity"
+    },
+    "raw_result": {
+      "server": {
+        "name": "rea-jadx-bridge",
+        "version": "1"
+      },
+      "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+      "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "loaded": {
+        "state": "LOADED",
+        "apk_path": "/tmp/rea-android-FqoZ5W/target.apk",
+        "class_count": 7746,
+        "resource_count": 956,
+        "threads": 1,
+        "resources": "full"
+      },
+      "calls": [
+        {
+          "operation": "rea_jvm_status",
+          "input": {},
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3147825152,\"java_version\":\"21.0.12.1\",\"available_processors\":6,\"engine_reported_version\":\"0.7.1\"}"
+              }
+            ],
+            "isError": false
+          }
+        },
+        {
+          "operation": "load_apk",
+          "input": {
+            "path": "/tmp/rea-android-FqoZ5W/target.apk",
+            "threads": 1,
+            "resources": "full"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-FqoZ5W/target.apk\",\"class_count\":7746,\"raw_class_count\":7746,\"resource_count\":956,\"load_duration_ms\":4171,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+              }
+            ]
+          }
+        },
+        {
+          "operation": "get_class_summary",
+          "input": {
+            "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"methods\":[{\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\",\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\"},{\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\",\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\"},{\"def_pos\":0,\"signature\":\"B(): void\",\"is_constructor\":false,\"name\":\"B\"},{\"def_pos\":0,\"signature\":\"C(): void\",\"is_constructor\":false,\"name\":\"C\"},{\"def_pos\":0,\"signature\":\"D(int, int, int): void\",\"is_constructor\":false,\"name\":\"D\"},{\"def_pos\":0,\"signature\":\"E(): void\",\"is_constructor\":false,\"name\":\"E\"},{\"def_pos\":0,\"signature\":\"F(int): java.lang.String\",\"is_constructor\":false,\"name\":\"F\"},{\"def_pos\":0,\"signature\":\"G(int, java.lang.String): java.lang.String\",\"is_constructor\":false,\"name\":\"G\"},{\"def_pos\":0,\"signature\":\"H(long): java.lang.String\",\"is_constructor\":false,\"name\":\"H\"},{\"def_pos\":0,\"signature\":\"I(): boolean\",\"is_constructor\":false,\"name\":\"I\"},{\"def_pos\":0,\"signature\":\"J(): void\",\"is_constructor\":false,\"name\":\"J\"},{\"def_pos\":0,\"signature\":\"K(android.view.View, java.lang.String): void\",\"is_constructor\":false,\"name\":\"K\"},{\"def_pos\":0,\"signature\":\"L(int, java.lang.String): long\",\"is_constructor\":false,\"name\":\"L\"},{\"def_pos\":0,\"signature\":\"finishThisActivity(android.view.View): void\",\"is_constructor\":false,\"name\":\"finishThisActivity\"},{\"def_pos\":0,\"signature\":\"onCreate(android.os.Bundle): void\",\"is_constructor\":false,\"name\":\"onCreate\"},{\"def_pos\":0,\"signature\":\"onOptionsItemSelected(android.view.MenuItem): boolean\",\"is_constructor\":false,\"name\":\"onOptionsItemSelected\"},{\"def_pos\":0,\"signature\":\"onPause(): void\",\"is_constructor\":false,\"name\":\"onPause\"},{\"def_pos\":0,\"signature\":\"onResume(): void\",\"is_constructor\":false,\"name\":\"onResume\"},{\"def_pos\":0,\"signature\":\"openCloseDatePicker(android.view.View): void\",\"is_constructor\":false,\"name\":\"openCloseDatePicker\"},{\"def_pos\":0,\"signature\":\"openConfig(android.view.View): void\",\"is_constructor\":false,\"name\":\"openConfig\"},{\"def_pos\":0,\"signature\":\"openLocationDialog(android.view.View): void\",\"is_constructor\":false,\"name\":\"openLocationDialog\"},{\"def_pos\":0,\"signature\":\"openMonthPrayer(android.view.View): void\",\"is_constructor\":false,\"name\":\"openMonthPrayer\"},{\"def_pos\":0,\"signature\":\"runPrayerTest(android.view.View): void\",\"is_constructor\":false,\"name\":\"runPrayerTest\"},{\"def_pos\":0,\"signature\":\"setAlarm(android.view.View): void\",\"is_constructor\":false,\"name\":\"setAlarm\"},{\"def_pos\":0,\"signature\":\"setNotification(android.view.View): void\",\"is_constructor\":false,\"name\":\"setNotification\"},{\"def_pos\":0,\"signature\":\"setPrayerConfig(android.view.View): void\",\"is_constructor\":false,\"name\":\"setPrayerConfig\"},{\"def_pos\":0,\"signature\":\"setSound(android.view.View): void\",\"is_constructor\":false,\"name\":\"setSound\"},{\"def_pos\":0,\"signature\":\"setVibrate(android.view.View): void\",\"is_constructor\":false,\"name\":\"setVibrate\"},{\"def_pos\":0,\"signature\":\"showFixIssue(android.view.View): void\",\"is_constructor\":false,\"name\":\"showFixIssue\"}],\"method_count\":29,\"inner_class_count\":14,\"inner_classes\":[\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.a\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.b\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.c\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.d\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.e\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.f\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.g\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.h\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.i\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.j\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.k\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.l\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.m\",\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.n\"],\"name\":\"PrayerTimeActivity\",\"full_name\":\"com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity\",\"field_count\":18,\"fields\":[{\"type\":\"java.util.Calendar\",\"def_pos\":0,\"name\":\"G\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"H\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"I\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"J\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"K\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"L\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"M\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"N\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"O\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"P\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"Q\"},{\"type\":\"android.widget.TextView\",\"def_pos\":0,\"name\":\"R\"},{\"type\":\"android.widget.ImageView\",\"def_pos\":0,\"name\":\"S\"},{\"type\":\"com.triggertrap.seekarc.SeekArc\",\"def_pos\":0,\"name\":\"T\"},{\"type\":\"boolean\",\"def_pos\":0,\"name\":\"U\"},{\"type\":\"java.lang.Thread\",\"def_pos\":0,\"name\":\"V\"},{\"type\":\"java.util.Calendar\",\"def_pos\":0,\"name\":\"W\"},{\"type\":\"o4.q\",\"def_pos\":0,\"name\":\"X\"}]}"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ]
+    },
+    "normalized_result": {
+      "engine": {
+        "name": "jadx-headless-mcp",
+        "version": "0.7.1",
+        "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+        "worker_count": 1,
+        "heap_limit_mib": 3002
+      },
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "reported_signature": "<clinit>(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "<init>",
+          "reported_signature": "<init>(): void",
+          "overload_index": 0,
+          "is_constructor": true,
+          "dex_descriptor": null
+        },
+        {
+          "name": "B",
+          "reported_signature": "B(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "C",
+          "reported_signature": "C(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "D",
+          "reported_signature": "D(int, int, int): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "E",
+          "reported_signature": "E(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "F",
+          "reported_signature": "F(int): java.lang.String",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "G",
+          "reported_signature": "G(int, java.lang.String): java.lang.String",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "H",
+          "reported_signature": "H(long): java.lang.String",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "I",
+          "reported_signature": "I(): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "J",
+          "reported_signature": "J(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "K",
+          "reported_signature": "K(android.view.View, java.lang.String): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "L",
+          "reported_signature": "L(int, java.lang.String): long",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "finishThisActivity",
+          "reported_signature": "finishThisActivity(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onCreate",
+          "reported_signature": "onCreate(android.os.Bundle): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onOptionsItemSelected",
+          "reported_signature": "onOptionsItemSelected(android.view.MenuItem): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onPause",
+          "reported_signature": "onPause(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onResume",
+          "reported_signature": "onResume(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "openCloseDatePicker",
+          "reported_signature": "openCloseDatePicker(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "openConfig",
+          "reported_signature": "openConfig(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "openLocationDialog",
+          "reported_signature": "openLocationDialog(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "openMonthPrayer",
+          "reported_signature": "openMonthPrayer(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "runPrayerTest",
+          "reported_signature": "runPrayerTest(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "setAlarm",
+          "reported_signature": "setAlarm(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "setNotification",
+          "reported_signature": "setNotification(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "setPrayerConfig",
+          "reported_signature": "setPrayerConfig(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "setSound",
+          "reported_signature": "setSound(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "setVibrate",
+          "reported_signature": "setVibrate(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "showFixIssue",
+          "reported_signature": "showFixIssue(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        }
+      ],
+      "fields": [
+        {
+          "name": "G",
+          "reported_type": "java.util.Calendar"
+        },
+        {
+          "name": "H",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "I",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "J",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "K",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "L",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "M",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "N",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "O",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "P",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "Q",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "R",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "S",
+          "reported_type": "android.widget.ImageView"
+        },
+        {
+          "name": "T",
+          "reported_type": "com.triggertrap.seekarc.SeekArc"
+        },
+        {
+          "name": "U",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "V",
+          "reported_type": "java.lang.Thread"
+        },
+        {
+          "name": "W",
+          "reported_type": "java.util.Calendar"
+        },
+        {
+          "name": "X",
+          "reported_type": "o4.q"
+        }
+      ],
+      "inner_classes": [
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.a",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.b",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.c",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.d",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.e",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.f",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.g",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.h",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.i",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.j",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.k",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.l",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.m",
+        "com.dev.hazhanjalal.tafseerinoor.ui.prayer.PrayerTimeActivity.n"
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+      "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+      "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+      "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  "meta": {
+    "command": "inspect-android-class",
+    "duration": "6375ms"
+  }
+}

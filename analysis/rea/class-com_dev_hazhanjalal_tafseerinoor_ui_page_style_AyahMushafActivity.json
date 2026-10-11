@@ -1,0 +1,309 @@
+{
+  "ok": true,
+  "data": {
+    "evidence_id": "ev_ac8d6dcdbcff204a256f5764a743d254c4a31ada6f5422948e8af832e6cafe35",
+    "subject": {
+      "name": "تەفسیرینوور.apk",
+      "digest": {
+        "sha256": "7b0ce94ee36055a99191e25e787a31e49f364029116c0c5e79e24c94b7bcdcee"
+      },
+      "format": "apk",
+      "architecture": null,
+      "local_path": "/home/ubuntu/upload/تەفسیرینوور.apk"
+    },
+    "provider": {
+      "id": "jadx",
+      "name": "JADX headless",
+      "version": "0.7.1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_android_class",
+    "parameters": {
+      "path": "/home/ubuntu/upload/تەفسیرینوور.apk",
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity"
+    },
+    "raw_result": {
+      "server": {
+        "name": "rea-jadx-bridge",
+        "version": "1"
+      },
+      "bridge_sha256": "5a5a4e32264fbe597a329d7ad4b06a6266b7b31243e86b0263dbddcecaf351a1",
+      "jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+      "loaded": {
+        "state": "LOADED",
+        "apk_path": "/tmp/rea-android-RqwK5v/target.apk",
+        "class_count": 7746,
+        "resource_count": 956,
+        "threads": 1,
+        "resources": "full"
+      },
+      "calls": [
+        {
+          "operation": "rea_jvm_status",
+          "input": {},
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"available_processors\":6,\"engine_reported_version\":\"0.7.1\",\"metadata_scope\":\"parsed_members\",\"max_heap_bytes\":3147825152,\"java_version\":\"21.0.12.1\"}"
+              }
+            ],
+            "isError": false
+          }
+        },
+        {
+          "operation": "load_apk",
+          "input": {
+            "path": "/tmp/rea-android-RqwK5v/target.apk",
+            "threads": 1,
+            "resources": "full"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"state\":\"LOADED\",\"apk_path\":\"/tmp/rea-android-RqwK5v/target.apk\",\"class_count\":7746,\"raw_class_count\":7746,\"resource_count\":956,\"load_duration_ms\":4273,\"decompile_timeout_ms\":90000,\"threads\":1,\"code_cache_size\":64,\"resources\":\"full\"}"
+              }
+            ]
+          }
+        },
+        {
+          "operation": "get_class_summary",
+          "input": {
+            "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity"
+          },
+          "response": {
+            "content": [
+              {
+                "type": "text",
+                "text": "{\"inner_classes\":[\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.a\",\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.b\",\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.c\",\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.d\"],\"name\":\"AyahMushafActivity\",\"full_name\":\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity\",\"field_count\":18,\"fields\":[{\"def_pos\":0,\"name\":\"G\",\"type\":\"java.util.ArrayList\\u003cm4.b\\u003e\"},{\"def_pos\":0,\"name\":\"H\",\"type\":\"java.util.ArrayList\\u003cm4.m\\u003e\"},{\"def_pos\":0,\"name\":\"I\",\"type\":\"java.lang.Class\\u003ccom.github.chrisbanes.photoview.PhotoView\\u003e\"},{\"def_pos\":0,\"name\":\"J\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"K\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"L\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"M\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"N\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"O\",\"type\":\"int\"},{\"def_pos\":0,\"name\":\"P\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"Q\",\"type\":\"android.widget.TextView\"},{\"def_pos\":0,\"name\":\"R\",\"type\":\"android.widget.LinearLayout\"},{\"def_pos\":0,\"name\":\"S\",\"type\":\"android.view.Menu\"},{\"def_pos\":0,\"name\":\"T\",\"type\":\"boolean\"},{\"def_pos\":0,\"name\":\"U\",\"type\":\"android.graphics.RectF\"},{\"def_pos\":0,\"name\":\"V\",\"type\":\"o4.d\"},{\"def_pos\":0,\"name\":\"W\",\"type\":\"com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity\"},{\"def_pos\":0,\"name\":\"X\",\"type\":\"ac.d\"}],\"methods\":[{\"is_constructor\":false,\"name\":\"\\u003cclinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cclinit\\u003e(): void\"},{\"is_constructor\":true,\"name\":\"\\u003cinit\\u003e\",\"def_pos\":0,\"signature\":\"\\u003cinit\\u003e(): void\"},{\"is_constructor\":false,\"name\":\"B\",\"def_pos\":0,\"signature\":\"B(T): void\"},{\"is_constructor\":false,\"name\":\"C\",\"def_pos\":0,\"signature\":\"C(): void\"},{\"is_constructor\":false,\"name\":\"D\",\"def_pos\":0,\"signature\":\"D(): void\"},{\"is_constructor\":false,\"name\":\"E\",\"def_pos\":0,\"signature\":\"E(): void\"},{\"is_constructor\":false,\"name\":\"F\",\"def_pos\":0,\"signature\":\"F(android.graphics.Bitmap): android.graphics.Bitmap\"},{\"is_constructor\":false,\"name\":\"G\",\"def_pos\":0,\"signature\":\"G(boolean): void\"},{\"is_constructor\":false,\"name\":\"H\",\"def_pos\":0,\"signature\":\"H(java.lang.Object, android.graphics.Bitmap): void\"},{\"is_constructor\":false,\"name\":\"hideFirstInfo\",\"def_pos\":0,\"signature\":\"hideFirstInfo(android.view.View): void\"},{\"is_constructor\":false,\"name\":\"onCreate\",\"def_pos\":0,\"signature\":\"onCreate(android.os.Bundle): void\"},{\"is_constructor\":false,\"name\":\"onCreateOptionsMenu\",\"def_pos\":0,\"signature\":\"onCreateOptionsMenu(android.view.Menu): boolean\"},{\"is_constructor\":false,\"name\":\"onDestroy\",\"def_pos\":0,\"signature\":\"onDestroy(): void\"},{\"is_constructor\":false,\"name\":\"onOptionsItemSelected\",\"def_pos\":0,\"signature\":\"onOptionsItemSelected(android.view.MenuItem): boolean\"},{\"is_constructor\":false,\"name\":\"onPause\",\"def_pos\":0,\"signature\":\"onPause(): void\"},{\"is_constructor\":false,\"name\":\"onResume\",\"def_pos\":0,\"signature\":\"onResume(): void\"}],\"method_count\":16,\"inner_class_count\":4}"
+              }
+            ],
+            "isError": false
+          }
+        }
+      ]
+    },
+    "normalized_result": {
+      "engine": {
+        "name": "jadx-headless-mcp",
+        "version": "0.7.1",
+        "artifact_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+        "source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+        "worker_count": 1,
+        "heap_limit_mib": 3002
+      },
+      "class_name": "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity",
+      "methods": [
+        {
+          "name": "<clinit>",
+          "reported_signature": "<clinit>(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "<init>",
+          "reported_signature": "<init>(): void",
+          "overload_index": 0,
+          "is_constructor": true,
+          "dex_descriptor": null
+        },
+        {
+          "name": "B",
+          "reported_signature": "B(T): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "C",
+          "reported_signature": "C(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "D",
+          "reported_signature": "D(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "E",
+          "reported_signature": "E(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "F",
+          "reported_signature": "F(android.graphics.Bitmap): android.graphics.Bitmap",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "G",
+          "reported_signature": "G(boolean): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "H",
+          "reported_signature": "H(java.lang.Object, android.graphics.Bitmap): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "hideFirstInfo",
+          "reported_signature": "hideFirstInfo(android.view.View): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onCreate",
+          "reported_signature": "onCreate(android.os.Bundle): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onCreateOptionsMenu",
+          "reported_signature": "onCreateOptionsMenu(android.view.Menu): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onDestroy",
+          "reported_signature": "onDestroy(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onOptionsItemSelected",
+          "reported_signature": "onOptionsItemSelected(android.view.MenuItem): boolean",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onPause",
+          "reported_signature": "onPause(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        },
+        {
+          "name": "onResume",
+          "reported_signature": "onResume(): void",
+          "overload_index": 0,
+          "is_constructor": false,
+          "dex_descriptor": null
+        }
+      ],
+      "fields": [
+        {
+          "name": "G",
+          "reported_type": "java.util.ArrayList<m4.b>"
+        },
+        {
+          "name": "H",
+          "reported_type": "java.util.ArrayList<m4.m>"
+        },
+        {
+          "name": "I",
+          "reported_type": "java.lang.Class<com.github.chrisbanes.photoview.PhotoView>"
+        },
+        {
+          "name": "J",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "K",
+          "reported_type": "int"
+        },
+        {
+          "name": "L",
+          "reported_type": "int"
+        },
+        {
+          "name": "M",
+          "reported_type": "int"
+        },
+        {
+          "name": "N",
+          "reported_type": "int"
+        },
+        {
+          "name": "O",
+          "reported_type": "int"
+        },
+        {
+          "name": "P",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "Q",
+          "reported_type": "android.widget.TextView"
+        },
+        {
+          "name": "R",
+          "reported_type": "android.widget.LinearLayout"
+        },
+        {
+          "name": "S",
+          "reported_type": "android.view.Menu"
+        },
+        {
+          "name": "T",
+          "reported_type": "boolean"
+        },
+        {
+          "name": "U",
+          "reported_type": "android.graphics.RectF"
+        },
+        {
+          "name": "V",
+          "reported_type": "o4.d"
+        },
+        {
+          "name": "W",
+          "reported_type": "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity"
+        },
+        {
+          "name": "X",
+          "reported_type": "ac.d"
+        }
+      ],
+      "inner_classes": [
+        "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.a",
+        "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.b",
+        "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.c",
+        "com.dev.hazhanjalal.tafseerinoor.ui.page_style.AyahMushafActivity.d"
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Static decompiler observations do not establish runtime behavior; the APK is never executed.",
+      "Method signatures use provider display types; exact DEX descriptors and instruction offsets are unavailable. Overload indices are local to this engine and artifact.",
+      "Class inventories use parsed metadata before code generation, including synthetic members that may be omitted from decompiled source. Source positions remain unknown.",
+      "Manifest summary fields are extracted by the upstream engine; decoded XML is retained for verification. APK signatures, split APKs, native libraries and Android runtime capture are not verified by this provider."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  "meta": {
+    "command": "inspect-android-class",
+    "duration": "6734ms"
+  }
+}

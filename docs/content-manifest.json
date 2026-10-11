@@ -1,0 +1,241 @@
+{
+  "app": "مەشخەڵ",
+  "source": "تەفسیرینوور.apk",
+  "assets": [
+    {
+      "path": "allah_name_timestamp.hjs",
+      "bytes": 2478,
+      "sha256": "08226684f1b99570e1f27426e881e53047172468646aa6aceb6ee77f2bb96738"
+    },
+    {
+      "path": "available_surah.hjs",
+      "bytes": 4908,
+      "sha256": "f3f800c97d123ffd0c9a6b3ba333e35110e45cb56b1fa0a62b0d63c1c1d5b8c0"
+    },
+    {
+      "path": "ayah_info.db",
+      "bytes": 1314816,
+      "sha256": "9a6f02c290a7f5cb1ddb44c1132e7ee34a938d8fa976a44c8307f68dfcad2c91"
+    },
+    {
+      "path": "db_hadith.db",
+      "bytes": 40685568,
+      "sha256": "2756811976de621b8983f4343235d93742b4edadc0349e094b79a471a7201c9d"
+    },
+    {
+      "path": "db_hadith_of_ayah.db",
+      "bytes": 10612736,
+      "sha256": "22397f91d7e2fa04382a4127434c16ee85cd3492201f633e8acef16badfe5239"
+    },
+    {
+      "path": "db_store.db",
+      "bytes": 24576,
+      "sha256": "8d849aa9c3635e26e4288200eef2d9442e30953b9d675d571bb63b0f325e2649"
+    },
+    {
+      "path": "db_word_by_word.db",
+      "bytes": 33445888,
+      "sha256": "7d1d695fb12a9c7597ffd58bc0d99fa6e8f4b299c195a5dd9f758993c50ce3e6"
+    },
+    {
+      "path": "db_words_lexicon.db",
+      "bytes": 1019904,
+      "sha256": "ab90775b4120ea32ead61445aa376e97d456f039b6680cab21773f952adb6c0b"
+    },
+    {
+      "path": "dexopt/baseline.prof",
+      "bytes": 2324,
+      "sha256": "a25c6205aa299dfc4729453dd4fbb4a8577a177b6cf1464b70b81a93ebf362e4"
+    },
+    {
+      "path": "dexopt/baseline.profm",
+      "bytes": 338,
+      "sha256": "0a4bfd950aa3faa767e7ec21c887528d2c979909f4059866a822a1fc3bd61a85"
+    },
+    {
+      "path": "farmuda.db",
+      "bytes": 487424,
+      "sha256": "2a6b9d8ed6cdebd8547a87fd6f768c52e3528f35de4cb43610aa1b68537847f3"
+    },
+    {
+      "path": "fonts/adobe_arabic.otf",
+      "bytes": 639612,
+      "sha256": "c874a247e6fb0bef7a039e892fdbc09713ae07d069adb4b052a871eaebc01c40"
+    },
+    {
+      "path": "fonts/al_qalam.ttf",
+      "bytes": 215412,
+      "sha256": "2fd8fe6f23b914c9f05642f7dea8d0f37045d3a429a1d3144d579c02bed9bc4b"
+    },
+    {
+      "path": "fonts/amiri_modded.ttf",
+      "bytes": 624800,
+      "sha256": "f5c8fd1983de753902b0a1eba983107ad95309a1068766630c17a37bcfadfdd5"
+    },
+    {
+      "path": "fonts/amiri_quran.ttf",
+      "bytes": 156432,
+      "sha256": "0b0d47c50b3b74b798a6a27bca5935fb83161f34fa290a96e60a8a7ab4af80bf"
+    },
+    {
+      "path": "fonts/arabic_type.ttf",
+      "bytes": 638932,
+      "sha256": "51cf704e73641a0af49312382c91bc6bfefb57e125998b9c1e7f7c75d274175e"
+    },
+    {
+      "path": "fonts/bahij_bold.ttf",
+      "bytes": 330032,
+      "sha256": "66f9d2d9dd08d9983bea5ccbdcc672c2e97afc95886b83eab4c5795ceee671b4"
+    },
+    {
+      "path": "fonts/bahij_regular.ttf",
+      "bytes": 329128,
+      "sha256": "11d11418488f6c8c5207fcf7c8d62e058dd564772b89588c34d7a43bd8751b97"
+    },
+    {
+      "path": "fonts/hafs_bold.ttf",
+      "bytes": 236352,
+      "sha256": "f1e6f7105a1f631d76d706c7aaf8c572ef8b3f760b24aca3d8acb4d5798726db"
+    },
+    {
+      "path": "fonts/hafs_regular.ttf",
+      "bytes": 242368,
+      "sha256": "a0636e68e375af9552470d67773936f54d536e6586ce2608311b2fe7f9cbec3a"
+    },
+    {
+      "path": "fonts/kitab.ttf",
+      "bytes": 69076,
+      "sha256": "d3f061fcae9373b5787acf5c9599a55c4c16476c837a4cfe9e6c4bb867959d2a"
+    },
+    {
+      "path": "fonts/maddina.ttf",
+      "bytes": 76860,
+      "sha256": "a255f3f0169b937ed87b95688ed6b09dcca26dd51d9ec971b89d147781313ce8"
+    },
+    {
+      "path": "fonts/me_quran.ttf",
+      "bytes": 86164,
+      "sha256": "e5804830d22eda4ebb00548ef77265b4481bda939c80b280ba6024a967320c06"
+    },
+    {
+      "path": "fonts/noon.ttf",
+      "bytes": 116560,
+      "sha256": "c74a3625092550f980ebbf2c112b6163d4ba6cbe7e93850ca2ad7519d2629113"
+    },
+    {
+      "path": "fonts/nrt_bold.ttf",
+      "bytes": 57120,
+      "sha256": "dfed4a4c16e7406c943ffca80dd0f1685e6cd3c73254abf3683846a67f302748"
+    },
+    {
+      "path": "fonts/nrt_regular.ttf",
+      "bytes": 54984,
+      "sha256": "2a030742f85f9ff292ed6060dab8c26948340c7d6e2385123d028c770458c537"
+    },
+    {
+      "path": "fonts/sarchia_abc.ttf",
+      "bytes": 66176,
+      "sha256": "975b447f30110ca7632ee8cce2ae6e7c108f85f6fc04429536032fff78b27d09"
+    },
+    {
+      "path": "fonts/sarchia_muslim.ttf",
+      "bytes": 53444,
+      "sha256": "83c512cbcab56ae9e9cdb2dfe29adb9a2eabf0c8cc11412ef710f0df4527aca6"
+    },
+    {
+      "path": "kurdish_transliteration.db",
+      "bytes": 4419584,
+      "sha256": "4f548d5c7bc48e6a85189912bdc9939a1f0938137d9421f6d789f3d99f0c45f3"
+    },
+    {
+      "path": "kurdish_transliteration.db.bu",
+      "bytes": 4411392,
+      "sha256": "9003e159c1c68327fa55e8917c1e1506c8c29b67c6645c783b4146e3cdbe7a1f"
+    },
+    {
+      "path": "kurdish_transliteration.pdf",
+      "bytes": 3210946,
+      "sha256": "7a4b0291eb66b5838c8f89d098e9f4ee1760d46c0187fb221be6566114e17950"
+    },
+    {
+      "path": "prayertimes.db",
+      "bytes": 3182592,
+      "sha256": "78dc460868a6e8059da442cb19fd7d2a2fdf3176f9c07e7712312489bff84def"
+    },
+    {
+      "path": "quran.db",
+      "bytes": 21069824,
+      "sha256": "41c6452b50307180b27646c83140fb96bff57a5a5cc3817038fba53d91c495df"
+    },
+    {
+      "path": "tafseer_maisar.db",
+      "bytes": 3809280,
+      "sha256": "b96b417eb668c1d88f03d30257663bc28ba9b150c62aedc5243aa8c7dacea4a0"
+    },
+    {
+      "path": "tafseer_rebar.db",
+      "bytes": 6586368,
+      "sha256": "d5df18c1ef6450734ba7103436597ab8e9d470b2a35d10bbcf5f8bd230d9f0d1"
+    },
+    {
+      "path": "tafseer_sahih_international.db",
+      "bytes": 1011712,
+      "sha256": "d0389f4fc591d6d31e2299c18a95f1b831335eb984740dbf0e19fe8eb2b322ce"
+    },
+    {
+      "path": "tafseeri_hawrami.db",
+      "bytes": 1916928,
+      "sha256": "23e18d4dff5476a915de37b9be7cd223fd5b44b96c626eade3c00f9ed0d680be"
+    },
+    {
+      "path": "tafseeri_hazhar.db",
+      "bytes": 1421312,
+      "sha256": "4302c603940f59444fce47ed932117ab8cb4eaaf276b36d050f9806afacb7a68"
+    },
+    {
+      "path": "tafseeri_mukhtasar.db",
+      "bytes": 5042176,
+      "sha256": "0d6289ecc169f0c097ce7a057f72306737ad480fbc3291fcb17a6389680f5746"
+    },
+    {
+      "path": "tafseeri_noor.db",
+      "bytes": 5144576,
+      "sha256": "a0e3fd9c6dcb09a980d7afbe98e5cf2e50b552ade71059adc6c1a1fb3fdc2f78"
+    },
+    {
+      "path": "tafseeri_roshn.db",
+      "bytes": 3796992,
+      "sha256": "a7a65402432138704a023e08506e5d2d8bafed7c84dd9c5d4672f5c114901f0d"
+    },
+    {
+      "path": "tafseeri_runahi_badini.db",
+      "bytes": 2088960,
+      "sha256": "f079c770edcf50f647eedb94210490f46b59b38a0dedb3cd2b502259f85dd830"
+    },
+    {
+      "path": "tafseeri_saadi.db",
+      "bytes": 6619136,
+      "sha256": "eb75178d39f9a7ff9158155dc9b2d8997c789534c6524e22b1838641f33259da"
+    },
+    {
+      "path": "tafseeri_tawhid.db",
+      "bytes": 8097792,
+      "sha256": "95bac3836ce423e14c8bd3aa252ca9cba1001bd242c49ae86de4cc667b340d79"
+    },
+    {
+      "path": "tafseeri_zhian_badini.db",
+      "bytes": 2097152,
+      "sha256": "34b69bdd8cfb97daaefb0a71f04b810e69fb5b93ff749eaadd29ada51cd4c368"
+    },
+    {
+      "path": "tajwid.pdf",
+      "bytes": 1963825,
+      "sha256": "e32d420c893b3d139bdebb8dba0dc47156bd18e571315fa7178b340a7b7de1e2"
+    },
+    {
+      "path": "tn_books.db",
+      "bytes": 45056,
+      "sha256": "b8cbf2413eb58dbed0d1c3ae9a0805b73d1f08a375e8860e7829acf1535d37c3"
+    }
+  ]
+}
